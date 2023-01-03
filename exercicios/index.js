@@ -2,4 +2,4 @@
   nome = vitor 
   let sobrenome = riquelme
 
-  console.log(nome, sobrenome)
+  console.log(nome)

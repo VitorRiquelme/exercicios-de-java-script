@@ -1,8 +1,6 @@
-let contar
-for(contar = 1; contar <=10; contar++){
-    console.log(contar)
-}
+let primeiroNome = "vitor"
+let sobreNome = "riquelme"
 
-//camel case sempre para função
-//Constantes usando supper snake case
-const FIRST_NAME = "vitor"
+let nome = `Meu nome é ${primeiroNome} e meu sobrenome é ${sobreNome}`
+
+console.log(nome)

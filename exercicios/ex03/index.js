@@ -21,7 +21,7 @@ let pessoa = {
 }
 Object.keys
 
-console.log(pessoa.altura)*/
+console.log(pessoa.altura)*
 
 function numerosIguais(a, b){
     if(a === b){
@@ -41,3 +41,12 @@ function somDeNumeros(s,d){
 
 numerosIguais(12,12)
 somDeNumeros(12, 12)
+
+function numeros (num1,num2){
+    const NUMEROS_IGUAIS = num1 === num2
+    const SOMA_DOS_NUMEROS = num1 + num2
+
+    if(NUMEROS_IGUAIS && SOMA_DOS_NUMEROS){
+        return `os numeros ${num1} e ${num2} são iguais e sua soma é `
+    }
+}*/

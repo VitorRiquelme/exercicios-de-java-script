@@ -5,7 +5,7 @@ let nome = `Meu nome é ${primeiroNome} e meu sobrenome é ${sobreNome}`
 
 console.log(nome)*/
 
-/*let idade = prompt("Qual a sua idade ? ")
+let idade = prompt("Qual a sua idade ? ")
 
 if(idade <=17){
     alert("voce  não pode beber")
@@ -49,4 +49,4 @@ function numeros (num1,num2){
     if(NUMEROS_IGUAIS && SOMA_DOS_NUMEROS){
         return `os numeros ${num1} e ${num2} são iguais e sua soma é `
     }
-}*/
+}

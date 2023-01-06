@@ -22,3 +22,22 @@ let pessoa = {
 Object.keys
 
 console.log(pessoa.altura)*/
+
+function numerosIguais(a, b){
+    if(a === b){
+        console.log("os numeros são iguais")
+    }else{
+        console.log("os numeros são diferentes")
+    }
+}
+
+function somDeNumeros(s,d){
+    if(s + d >= 20){
+        console.log(`a some de ${s} e ${d} são maiores que 10`)
+    }else if(s + d <=19){
+        console.log(`a soma de ${s} e ${d} são menores que 20`)
+    }
+}
+
+numerosIguais(12,12)
+somDeNumeros(12, 12)

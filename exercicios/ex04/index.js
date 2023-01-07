@@ -10,6 +10,32 @@ function calculadora(){
         alert(`o valor de ${n1} + ${n2} é igual a ${resultado}`);
     }
 
+    function subtracao(){
+        resultado = n1 - n2;
+        alert(`o valor de ${n1} - ${n2} é igual a ${resultado}`);
+    }
+
+    function multiplicacao(){
+        resultado = n1 * n2;
+        alert(`o valor de ${n1} * ${n2} é igual a ${resultado}`);
+    }
+
+    function divisaoReal(){
+        resultado = n1 / n2;
+        alert(`o valor de ${n1} \ ${n2} é igual a ${resultado}`);
+    }
+
+    function divisaoInteira(){
+        resultado = n1 % n2;
+        alert(`o valor de ${n1} % ${n2} é igual a ${resultado}`);
+    }
+
+    function potenciacao(){
+        resultado = n1 ** n2;
+        alert(`o valor de ${n1} ** ${n2} é igual a ${resultado}`);
+    }
+
+
     if(OPERACAO == 1){
         soma();
     }else if(OPERACAO == 2){

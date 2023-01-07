@@ -1,8 +1,9 @@
-//Funções em javascript
-// array 
+/*Funções em javascript
+ array 
 let nomes = ["vitor","lucas","bruno","julia"];
 
 nomes.push("marcelo")
 nomes.pop()
 
-console.log(nomes)
+console.log(nomes)*/
+

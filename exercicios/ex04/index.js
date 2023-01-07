@@ -1,14 +1,6 @@
-/*Funções em javascript
- array 
-let nomes = ["vitor","lucas","bruno","julia"];
-
-nomes.push("marcelo")
-nomes.pop()
-
-console.log(nomes)*/
 
 function calculadora(){
-    const OPERACAO = prompt(`Escolha uma operação :\n 1 - soma (+)\n 2 - subtração (-)\n 3 - multiplicação (*)\n 4 - divisão real (/) \n 5 - divisão inteira (%) \n 6 - pontenciação(**)`);
+    const OPERACAO = prompt('Escolha uma operação :\n 1 - soma (+)\n 2 - subtração (-)\n 3 - multiplicação (*)\n 4 - divisão real (/) \n 5 - divisão inteira (%) \n 6 - pontenciação(**)');
 
     let n1 = prompt('Insira o valor aqui');
     let n2 = prompt('Insira o outro valor ');
@@ -35,3 +27,4 @@ if(OPERACAO == 1){
     potenciacao();
 }
 
+calculadora();

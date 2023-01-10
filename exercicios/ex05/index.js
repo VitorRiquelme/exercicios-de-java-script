@@ -11,7 +11,7 @@ const PESSOA = {
 
 console.log(PESSOA.nome)
 
- Calcule a média de diversas notas digitadas pelo usuário.*/
+ Calcule a média de diversas notas digitadas pelo usuário.
 
 const NOTAS = Number(prompt("Digita sua nota"));
 
@@ -34,6 +34,12 @@ if(!NOTAS || NOTAS < 0 ){
     
      calcularNotas(NOTAS)
 };
+
+
+
+Peça ao usuário para digitar 5 números em uma caixa de texto. Verifique qual é o maior número e exiba-o.
+*/
+
 
 
 

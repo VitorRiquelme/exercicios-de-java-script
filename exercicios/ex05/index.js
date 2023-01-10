@@ -13,18 +13,28 @@ console.log(PESSOA.nome)
 
  Calcule a média de diversas notas digitadas pelo usuário.*/
 
- const NOTAS = prompt("digite sua nota")
+const NOTAS = Number(prompt("Digita sua nota"));
 
- function calcularNotas(NOTAS){
-    if(NOTAS <= 20){
-        window.alert("Você está muito abaixo da média")
-    }else if(NOTAS <= 59){
-        window.alert("Você está abaixo da média")
-    }else if(NOTAS >=60){
-        window.alert("VOcê está acima da média")
-    }else if(NOTAS >=100){
-        window.alert("você está muito acimda da média")
-    }
- }
+if(!NOTAS || NOTAS < 0 ){
+    alert("Ops algo deu errado insira um valor valido")
+}else{
+    function calcularNotas(){
+        if(NOTAS <= 20){
+            alert("Você está muito abaixo da média")
+        }else if(NOTAS <= 59){
+            alert("Você está abaixo da média")
+        }else if(NOTAS == 60){
+            alert("VOcê está na média")
+        }else if(NOTAS >= 61){
+            alert("voce está acima da média")
+        }else if(NOTAS > 100){
+            alert("você está muito acimda da média")
+        }
+     }
+    
+     calcularNotas(NOTAS)
+};
 
- calcularNotas(NOTAS)
+
+
+

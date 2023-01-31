@@ -1,7 +1,4 @@
-//Escoppo global
-//escopo de bloco{}
-//Escopo de função functio(){}
-
+//eventos no javascript
 
 
 

@@ -3,6 +3,10 @@ body{
 }
 h1{
     color: blue;
+    background-color: white;
+    border-radius: 10px;
+    height: 46px;
+    text-align: center;
 }
 .boca{
     color: brown;
